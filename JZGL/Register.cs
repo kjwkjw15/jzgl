@@ -16,5 +16,11 @@ namespace JZGL
         {
             InitializeComponent();
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Login login = new Login();
+            login.ShowDialog();
+        }
     }
 }

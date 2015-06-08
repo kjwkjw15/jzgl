@@ -16,22 +16,16 @@ namespace JZGL
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             this.Visible = false;
             Register form2 = new Register();
             form2.ShowDialog();
         }
+
     }
 }
